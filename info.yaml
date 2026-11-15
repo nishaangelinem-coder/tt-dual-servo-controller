@@ -1,0 +1,13 @@
+project:
+  author: nishaangelinem-coder
+  title: Deterministic Dual-Channel RC Servo Controller
+  description: Open-source digital ASIC for deterministic dual-channel RC servo control with frame-synchronous updates, watchdog, and readable fault status.
+  source_files:
+    - src/servo_dual_controller.v
+    - src/tt_um_dual_servo_controller.v
+  language: verilog
+  foundry: "TinyTapeout"
+  clock: 100MHz
+  pid: 0
+  repo: "https://github.com/nishaangelinem-coder/tt-dual-servo-controller"
+
